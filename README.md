@@ -1,7 +1,7 @@
 sourcemaps : Compass Naked CLI Commando Style
 ==========
 
-Demos for Source Maps using Compass 1.0.0.alpha.19, Sass 3.3.5, Ruby 2.1.1, Node 0.10.26 in DevTools for Chrome 34
+Demos for Source Maps using Compass 1.0.0, Sass 3.3.5, Ruby 2.1.1, Node 0.10.26 in DevTools for Chrome 34
 & Firefox 29.
 
 ![demo gif](https://dl.dropboxusercontent.com/u/41114960/compass.gif)
@@ -19,19 +19,7 @@ $ bundle install
 If you would like to install Compass w/out bundler run the command:
 
 ```bash
-$ gem install compass --pre
-```
-
-### Install Gulp *skip if you already have gulp installed
-
-```bash
-$ npm install -g gulp
-```
-
-### Install NPM Modules
-
-```bash
-$ npm install
+$ gem install compass
 ```
 
 ### Static Server
@@ -51,17 +39,4 @@ $ http://127.0.0.1:8000
 
 ```bash
 sass --compass --sourcemap --watch css/src/styles.scss:css/styles.css
-```
-
-use this command if shit blows up from the one above.
-
-```bash
-$ bundle exec compass compile --sourcemap
-```
-
-**You'll also need to note the line in Compass' config.rb which allows for the
-mapping in your DevTools.**
-
-```ruby
-sass_options = { :debug_info => true }
 ```
