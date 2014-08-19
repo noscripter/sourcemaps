@@ -1,13 +1,11 @@
-// Plugins
 var gulp = require('gulp'),
-	compass = require('gulp-compass'), // https://github.com/appleboy/gulp-compass
+	compass = require('gulp-compass'),
 	livereload = require('gulp-livereload'),
 	lr = require('tiny-lr'),
 	server = lr(),
 	connect = require('gulp-connect');
 
 
-// CSS
 gulp.task('styles', function() {
 	return gulp.src('css/src/styles.scss')
 		.pipe(compass({
@@ -17,12 +15,11 @@ gulp.task('styles', function() {
 			css: 'css',
 			sass: 'css/src'
 		}))
-		.pipe(livereload(server))
+		//.pipe(livereload(server)) // conflicting errors in CLI still.
 		.pipe(gulp.dest('css'));
 });
 
 
-// HTML
 gulp.task('markup', function() {
 	return gulp.src('*.html')
 		.pipe(gulp.dest(''))
@@ -30,20 +27,18 @@ gulp.task('markup', function() {
 });
 
 
-// Default Task
 gulp.task('default', ['connect', 'watch']);
 
 
-// Server
 gulp.task('connect', function() {
 	connect.server({
 		root: '.',
+		port: 9000,
 		livereload: false
 	});
 });
 
 
-// Watch
 gulp.task('watch', function() {
 	server.listen(35729, function (err) {
 		if (err) {
@@ -53,5 +48,4 @@ gulp.task('watch', function() {
 		gulp.watch('css/src/**/*.scss', ['styles']);
 		gulp.watch('*.html', ['markup']);
 	});
-
 });

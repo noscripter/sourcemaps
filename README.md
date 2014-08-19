@@ -1,8 +1,11 @@
-sourcemaps : gulp-compass branch
+Sourcemaps : gulp-compass
 ==========
 
-Demos for Source Maps using Compass 1.0.0.alpha.19, Sass 3.3.4, Ruby 2.1.1, Node 0.10.26 in DevTools for Chrome 33
-& Firefox 29.
+- Compass 1.0.0
+- Ruby 2.1.2p95
+- Node 0.10.26
+
+DevTools : Chrome 36 & Firefox 29.
 
 ![demo gif](https://dl.dropboxusercontent.com/u/41114960/gulp-compass.gif)
 
@@ -19,7 +22,7 @@ $ bundle install
 If you would like to install Compass w/out bundler run the command:
 
 ```bash
-$ gem install compass --pre
+$ gem install compass
 ```
 
 ### Install Gulp *skip if you already have gulp installed
@@ -33,3 +36,10 @@ $ npm install -g gulp
 ```bash
 $ npm install
 ```
+
+### Running Project
+
+```bash
+$ gulp
+```
+
