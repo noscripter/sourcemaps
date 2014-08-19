@@ -1,8 +1,11 @@
 sourcemaps : Compass Naked CLI Commando Style
 ==========
 
-Demos for Source Maps using Compass 1.0.0, Sass 3.3.5, Ruby 2.1.1, Node 0.10.26 in DevTools for Chrome 34
-& Firefox 29.
+- Compass 1.0.0
+- Ruby 2.1.2
+- Node 0.10.26
+
+Chrome 36 & Firefox 31.
 
 ![demo gif](https://dl.dropboxusercontent.com/u/41114960/compass.gif)
 
