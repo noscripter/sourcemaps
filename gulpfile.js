@@ -1,4 +1,3 @@
-// Plugins
 var gulp = require('gulp'),
 	sass = require('gulp-ruby-sass'),
 	livereload = require('gulp-livereload'),
@@ -7,7 +6,6 @@ var gulp = require('gulp'),
 	connect = require('gulp-connect');
 
 
-// CSS
 gulp.task('styles', function() {
 	return gulp.src('css/src/styles.scss')
 		.pipe(sass({
@@ -20,7 +18,6 @@ gulp.task('styles', function() {
 });
 
 
-// HTML
 gulp.task('markup', function() {
 	return gulp.src('*.html')
 		.pipe(gulp.dest(''))
@@ -28,11 +25,9 @@ gulp.task('markup', function() {
 });
 
 
-// Default Task
 gulp.task('default', ['connect', 'watch']);
 
 
-// Server
 gulp.task('connect', function() {
 	connect.server({
 		root: '.',
@@ -41,7 +36,6 @@ gulp.task('connect', function() {
 });
 
 
-// Watch
 gulp.task('watch', function() {
 	server.listen(35729, function (err) {
 		if (err) {
