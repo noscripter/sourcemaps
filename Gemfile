@@ -7,8 +7,8 @@
 source "https://rubygems.org"
 
 # Ruby Version
-ruby '2.1.1'
+ruby '2.1.2'
 
 # Gem Dependencies - Compass & Sass
 # Required Deps for Breakpoint Gem
-gem "compass", "~>1.0.0.alpha.19"
+gem "compass", "~>1.0.0"
