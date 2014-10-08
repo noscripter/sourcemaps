@@ -7,7 +7,7 @@ sourcemaps : Compass Naked CLI Commando Style
 
 Chrome 36 & Firefox 31.
 
-![demo gif](https://dl.dropboxusercontent.com/u/41114960/compass.gif)
+![demo gif](https://dl.dropboxusercontent.com/u/41114960/github/sourcemaps/cli.gif)
 
 ### Installing Compass
 
