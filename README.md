@@ -7,7 +7,7 @@ sourcemaps - compass/codekit2
 
 Chrome 36 & Firefox 31.
 
-![](https://dl.dropboxusercontent.com/u/41114960/compass-codekit.png)
+![](https://dl.dropboxusercontent.com/u/41114960/github/sourcemaps/compass-codekit.png)
 
 **Note**: Add the line below to your ``config.rb``. This allows for the mapping in your DevTools for sourcemaps.
 
