@@ -7,7 +7,7 @@ sourcemaps : gulp-ruby-sass branch
 
 Chrome 36 & Firefox 31.
 
-![demo gif](https://dl.dropboxusercontent.com/u/41114960/gulp-ruby-sass.gif)
+![demo gif](https://dl.dropboxusercontent.com/u/41114960/github/sourcemaps/gulp-ruby-sass.gif)
 
 ### Installing Compass
 
