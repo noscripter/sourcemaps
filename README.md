@@ -7,7 +7,7 @@ Sourcemaps : gulp-compass
 
 DevTools : Chrome 36 & Firefox 29.
 
-![demo gif](https://dl.dropboxusercontent.com/u/41114960/gulp-compass.gif)
+![demo gif](https://dl.dropboxusercontent.com/u/41114960/github/sourcemaps/gulp-compass.gif)
 
 ### Installing Compass
 
