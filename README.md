@@ -7,7 +7,7 @@ sourcemaps : compass/grunt branch
 
 Chrome 36 & Firefox 31.
 
-![demo gif](https://dl.dropboxusercontent.com/u/41114960/grunt-compass.gif)
+![demo gif](https://dl.dropboxusercontent.com/u/41114960/github/sourcemaps/grunt-compass.gif)
 
 ### Installing Compass
 
